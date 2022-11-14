@@ -1,7 +1,7 @@
-const addButton = document.getElementById("add")
-const subtractButton = document.getElementById("subtract")
-const multiplyButton = document.getElementById("multiply")
-const divideButton = document.getElementById("divide")
+const addButton = document.getElementById("add-button")
+const subtractButton = document.getElementById("subtract-button")
+const multiplyButton = document.getElementById("multiply-button")
+const divideButton = document.getElementById("divide-button")
 
 const inputNumber = document.getElementById("number-box")
 
