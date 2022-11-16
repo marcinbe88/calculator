@@ -4,16 +4,14 @@ const multiplyButton = document.getElementById("multiply-button")
 const divideButton = document.getElementById("divide-button")
 
 const inputNumber = document.getElementById("number-box")
+const resultText = document.getElementById("result-text")
 
-const result = document.getElementById("result")
-
-result.append('hi')
-
-let initialValue = 0
+let initialValue = 3
 
 function add() {
+    result = (+initialValue + +inputNumber.value)
+    resultText.append(+initialValue + +inputNumber.value)
     
 }
 
-
-addEventListener
+addButton.addEventListener('click', add)
